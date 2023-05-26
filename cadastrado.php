@@ -20,7 +20,7 @@ $insert = $conexao->query($sql);
         if ($insert === TRUE){
             echo '<body style="background-color: black;">
             <div class="w3-container w3-center">
-            <a href="index.php" style="text-decoration: none;" class="w3-text-white" style="text-shadow:1px 1px 0 #444"><h1><b>Cadastrado com Sucesso</b></h1></a>
+            <a href="index.html" style="text-decoration: none;" class="w3-text-white" style="text-shadow:1px 1px 0 #444"><h1><b>Cadastrado com Sucesso</b></h1></a>
             </div>
             </body>
             </html>';
@@ -28,7 +28,7 @@ $insert = $conexao->query($sql);
         else {
             echo '<body style="background-color: black;">
             <div class="w3-container w3-center">
-            <a href="index.php" style="text-decoration: none;" class="w3-text-white" style="text-shadow:1px 1px 0 #444"><h1><b>Erro ao cadastrar</b></h1></a>
+            <a href="index.html" style="text-decoration: none;" class="w3-text-white" style="text-shadow:1px 1px 0 #444"><h1><b>Erro ao cadastrar</b></h1></a>
             </div>
             </body>
             </html>';
